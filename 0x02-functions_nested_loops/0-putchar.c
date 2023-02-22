@@ -1,9 +1,11 @@
 #include "main.h" 
   
  /** 
-  * main - entry point 
-  * Return: always return 0 
+  * main - print _putchar 
+  * is written by mbah 
+  * return 0 
   */ 
+
  int main(void) 
  { 
  putchar(''); 
