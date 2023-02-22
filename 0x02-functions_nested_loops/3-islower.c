@@ -1,13 +1,12 @@
 #include "main.h" 
-  
  /** 
-  * _isalpha - main function 
+  * _islower - main function 
   * @c: c is an ascii character 
   * Return: 1 if true, 0 if false 
   */ 
- int _isalpha(int c) 
+ int _islower(int c) 
  { 
- if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) 
+ if (c >= 'a' && c <= 'z') 
  { 
  return (1); 
  } 
